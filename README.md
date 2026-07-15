@@ -1,13 +1,29 @@
 # MS Hub
 
-Central operacional de links e sistemas de Max Albert.
+Central de acessos operacionais de Max Santana.
 
-## Versão 1.0
+## Sistemas cadastrados
 
-- PWA instalável no iPhone/Android
-- Tema escuro responsivo
-- Pesquisa instantânea
-- Favoritos
-- Categorias operacionais
+- MedLogix — `http://10.254.200.80`
+- Safety COBRA — `https://safetycobrais.com/login`
+- Zeev — Minhas tarefas — `https://carmoenergy.zeev.it/my/tasks`
 
-Publicado via GitHub Pages.
+## Publicação pelo GitHub Pages
+
+1. Crie um repositório novo no GitHub.
+2. Faça upload de todos os arquivos e pastas deste pacote, mantendo a estrutura.
+3. Abra **Settings > Pages**.
+4. Em **Build and deployment**, selecione **Deploy from a branch**.
+5. Escolha a branch `main` e a pasta `/ (root)`.
+6. Salve e aguarde a publicação.
+
+## Estrutura
+
+- `index.html`
+- `css/style.css`
+- `js/app.js`
+- `manifest.json`
+- `service-worker.js`
+- `icons/`
+
+Para incluir um novo sistema, edite apenas o array `systems` no início do arquivo `js/app.js`.
