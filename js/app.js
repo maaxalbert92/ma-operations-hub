@@ -1,5 +1,5 @@
 const systems = [
-  {name:'Sistema Carmo Energy', url:'https://sce.carmoenergy.com/', category:'Operação', desc:'Sistema corporativo operacional da Carmo Energy.', icon:'⚙️', favorite:true, tags:['SCE','PT','GM']},
+  {name:'Sistema Carmo Energy', url:'https://sce.carmoenergy.com/', category:'Operação', desc:'Sistema corporativo operacional da Carmo Energy.', icon:'⚙️', favorite:true, tags:['CTO','SCE','PT','GM']},
 
   {name:'PI Vision', url:'https://pi.carmoenergy.com/PIVision/#/Displays/15749/Monitoramento-Geral---TEND%C3%8ANCIA', category:'Supervisório', desc:'Monitoramento geral e tendências operacionais.', icon:'📈', favorite:true, tags:['PI','Tendência']},
 
@@ -19,9 +19,9 @@ const systems = [
 
   {name:'GLPI - Chamados HelpDesk', url:'https://servicedesk.carmoenergy.com/Helpdesk', category:'TI', desc:'Abertura e acompanhamento de chamados de TI.', icon:'🛠️', favorite:false, tags:['HelpDesk','TI']},
 
-  {name:'Safety COBRA', url:'https://safetycobrais.com/login', category:'Grupo Cobra', desc:'Sistema de inspeções e gestão de segurança do Grupo Cobra.', icon:'🦺', favorite:true, tags:['Inspeção','Cobra','Safety']},
+  {name:'Safety Inspeciones', url:'https://safetycobrais.com/login', category:'Grupo Cobra', desc:'Sistema de inspeções e gestão de segurança do Grupo Cobra.', icon:'🦺', favorite:true, tags:['Inspeção','Cobra','Safety']},
 
-  {name:'Zeev - Minhas Tarefas', url:'https://carmoenergy.zeev.it/my/tasks', category:'Corporativo', desc:'Fluxos de trabalho e tarefas pendentes.', icon:'📋', favorite:true, tags:['Workflow','Zeev','Tarefas']},
+  {name:'Orchestra', url:'https://carmoenergy.zeev.it/my/tasks', category:'Corporativo', desc:'Fluxos de trabalho e tarefas pendentes.', icon:'📋', favorite:true, tags:['Workflow','Zeev','Tarefas']},
 
   {name:'My Ahgora - TOTVS', url:'https://app.ahgora.com.br/externo/', category:'Corporativo', desc:'Registro e consulta de ponto.', icon:'⏱️', favorite:false, tags:['Ponto','TOTVS']},
 
