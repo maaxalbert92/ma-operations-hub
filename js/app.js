@@ -5,7 +5,7 @@ const systems = [
 
   {name:'MAP - Monitoramento de Ativos de Petróleo', url:'https://carmoenergy.map.rntecnologia.com.br/map/dashboard/operacao', category:'Supervisório', desc:'Poços, SATs, tanques de campo e acompanhamento de ativos.', icon:'🛢️', favorite:true, tags:['Poços','SAT','TQ']},
 
-  {name:'MedLogix', url:'http://10.254.200.80/login', category:'Medição Fiscal', desc:'Consulta e acompanhamento de dados de medição fiscal.', icon:'🧾', favorite:true, tags:['Fiscal','Medição']},
+  {name:'MedLogix', url:'10.254.200.80', category:'Medição Fiscal', desc:'Consulta e acompanhamento de dados de medição fiscal.', icon:'🧾', favorite:true, tags:['Fiscal','Medição']},
 
   {name:'8.07 - Centro Integrado de Controle', url:'https://carmoenergy.sharepoint.com/:f:/s/dados/IgD_aXyDXtxCSbYEvHcaKgkZAZtoHSuDC_79k66S5iqn6ao', category:'Documentos', desc:'Pasta de documentos do Centro Integrado de Controle.', icon:'🏢', favorite:true, tags:['CIC','SharePoint']},
 
